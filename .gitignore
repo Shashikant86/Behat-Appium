@@ -45,3 +45,4 @@ storage/cache
 storage/logs
 storage/sessions
 vendor
+bin
