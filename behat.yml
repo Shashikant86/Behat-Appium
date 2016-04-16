@@ -1,0 +1,10 @@
+default:
+  extensions:
+    Behat\MinkExtension:
+      base_url:  'http://saucelabs.com/'
+      javascript_session:  'foo'
+      sessions:
+        foo:
+          appium:
+            browser: "safari"
+            capabilities: { "platformName": "iOS", "platformVersion": "9.0", "version": "8.0", "deviceName": "iPhone 6s Plus (9.0) [3EB9B26B-7018-4FCE-9BB0-9B44E8FE348D]"}
