@@ -46,3 +46,4 @@ storage/logs
 storage/sessions
 vendor
 bin
+node_modules
