@@ -17,23 +17,23 @@ Now install all dependencies
 
 ## Install and launch Appium Server 
 
-You can doenload appium server from woth npm. We have package.json file to get that from root of the project. 
+You can download appium server with npm. We have package.json file to get that from root of the project. 
 
       $ npm install 
       $ ./node_modules/.bin/appium
 
 OR 
 
-You can install it globally usig 
+You can install it globally using 
 
       $ npm install -g appium 
       
 
-## Configure Simulator Or Real device 
+## Configure Simulator Or Real Device 
 
-Next step is to configure, iOS or Android Simulator/Emulator or READ device by refering APPiUM [Documentation](http://appium.io/slate/en/master/). All the capabilities has been added to MinkExtension 
+Next step is to configure, iOS or Android Simulator/Emulator or READ device by referring Appium [Documentation](http://appium.io/slate/en/master/). All the capabilities has been added to MinkExtension 
 
-You ned to update 'behat.yml' as per your setup or create multiple profiles. 
+You need to update 'behat.yml' as per your setup or create multiple profiles. 
 
 ## Launch Behat 
 
